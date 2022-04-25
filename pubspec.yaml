@@ -13,7 +13,11 @@ dependencies:
   esc_pos_utils: ^1.1.0
   # esc_pos_utils:
   # path: ../esc_pos_utils
-  flutter_bluetooth_basic: ^0.1.7
+  # flutter_bluetooth_basic: ^0.1.7
+  flutter_bluetooth_basic:
+    git:
+      url: git://github.com/trilobyte-my/flutter_bluetooth_basic.git
+      ref: master
 
 dev_dependencies:
   flutter_test:
